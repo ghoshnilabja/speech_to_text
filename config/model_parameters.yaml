@@ -1,0 +1,13 @@
+input_channels: 1
+output_channels: 16
+conv_kernal_size: 3
+pooling_kernal_size: 2
+dnn_input_size: 16
+dnn_output_size: 64
+input_size: 768
+num_classes: 3
+max_words_in_three_sentence: 80 # 512
+padding: 'max_length'
+class_mapping_of_sentiment: {2: -1, 0: 0, 1: 1}
+news_class_weight_matrix: [1,1,1,0.5,0.75]
+minimum_weight_to_assign: 0.4

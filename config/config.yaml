@@ -1,0 +1,34 @@
+# Database Credentials
+DB_UserName: 'postgres'
+DB_Password: 'password'
+DB_Host: 'localhost'
+DB_Port: '5432'
+DB_Name: 'nlp'
+
+# Minute data downloader configs
+Data_downloader_window: 30
+OHCL_range_window: 10
+Sensitivity_Parameter: 1
+NIFTY_50_Spot_Symbol: "NIFTY 50.NSE_IDX"
+ARMM_Threshold: 0
+
+# Necessary File paths
+utils_file_path: '/home/nilabja/Documents/nilabja/NLP/nifty_sentiment_live/src'
+FinBERT_Tone_Model: 'FinBERT-FinVocab-Uncased'
+FinBERT_Tone_Model_Path: '/home/nilabja/Documents/nilabja/NLP/nifty_sentiment_live/model/FinBERT-tone'
+trained_classification_layer: "model.pth"
+classification_layer_path: "/home/nilabja/Documents/nilabja/NLP/nifty_sentiment_live/model/CNN_DNN_classifier"
+weight_data_path: '/home/nilabja/Documents/nilabja/NLP/nifty_sentiment_live/data/news_weights.xlsx'
+company_sheet: 'nifty50_companies'
+sector_sheet: 'nifty50_industries'
+positive_word_sheet: 'unique_positve_words'
+negative_word_sheet: 'unique_negative_words'
+pos_bigram_sheet: 'unique_pos_bigram'
+neg_bigram_sheet: 'unique_neg_bigram'
+keyword_sheet: 'news_keywords'
+filtering_keywords: 'Keywords'
+
+
+
+# Stopwords to ignore
+stopwords_to_ignore: []
